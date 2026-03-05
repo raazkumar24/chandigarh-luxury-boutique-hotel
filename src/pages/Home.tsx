@@ -96,7 +96,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.2, duration: 1 }}
-          className="absolute bottom-20 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2"
+          className="absolute bottom-15 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2"
         >
           <span className="text-white/60 text-xs uppercase tracking-[0.2em]">Scroll</span>
           <motion.div 
